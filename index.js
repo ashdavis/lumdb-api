@@ -15,7 +15,10 @@ app.server = http.createServer(app);
 app.use(bodyParser.json());
 
 // Configure CORS
-const whitelist = ['http://localhost:3000'];
+const whitelist = [
+  'http://localhost:3000',
+  'https://lumdb-44210.firebaseapp.com'
+];
 const corsOptions = {
   origin: function (origin, callback) {
     if (whitelist.indexOf(origin) !== -1) {
