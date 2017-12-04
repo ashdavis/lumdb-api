@@ -60,6 +60,12 @@ Returns the first page of en-US language movies sorted by popularity in descendi
 
 Returns details of the movie that matches the provided ID.
 
+### CORS
+
+The server is configured to only enable CORS requests from domains that are on a whitelist.
+
+The `whitelist` variable in `index.js` is assigned array of URLs that the server should accept requests from.
+
 ## Technology Used
 
 - [Node.js](https://nodejs.org)
