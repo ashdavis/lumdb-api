@@ -4,7 +4,7 @@
 
 LUMDB API is a simple Node.js REST API built using Express that fetches movie data from [The Movie DB API](https://www.themoviedb.org/documentation/api).
 
-The project acts as a backend to the [lumdb](https://github.com/ashdavis/lumdb) React frontend app.
+The project acts as a backend to the [lumdb](https://github.com/ashdavis/lumdb) and [lumdb-redux](https://github.com/ashdavis/lumdb-redux) React frontend apps.
 
 
 ## Project Features

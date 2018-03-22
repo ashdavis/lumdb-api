@@ -17,7 +17,8 @@ app.use(bodyParser.json());
 // Configure CORS
 const whitelist = [
   'http://localhost:3000',
-  'https://lumdb-44210.firebaseapp.com'
+  'https://lumdb-44210.firebaseapp.com',
+  'https://lumdb-redux.firebaseapp.com',
 ];
 const corsOptions = {
   origin: function (origin, callback) {
